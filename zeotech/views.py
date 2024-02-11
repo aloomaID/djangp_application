@@ -32,7 +32,8 @@ def index(response):
             'box_credential': boxcredential,
             'form': forms,
             'out_result': result,
-            'famousypeople': famouspeople
+            'famousypeople': famouspeople,
+            'dateofbirth': date_of_birth,
              
         })
         
@@ -125,6 +126,7 @@ def index2(response):
             'box_credential': boxcredential,
             'form': forms,
             'out_result': result,
+            'dateofbirth': date_of_birth,
             'famousypeople': famouspeople
              
         })

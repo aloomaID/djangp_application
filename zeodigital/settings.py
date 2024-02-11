@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-n_=g%o-4m1x7oow=8625d*f%$ht=hqpm4!&d8su^+uv%it$65^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'agecalculator.zeodigital.com']
 
 
 # Application definition
@@ -127,3 +127,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://agecalculator.zeodigital.com'
+]

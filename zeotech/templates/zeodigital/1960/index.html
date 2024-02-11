@@ -27,7 +27,9 @@
   <link href="../../static/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="../../static/css/responsive.css" rel="stylesheet" />
-  <style>* {  box-sizing: border-box;}.row::after {  content: "";  clear: both;  display: table;}[class*="col-"] {  float: left;  padding: 15px;}/* For mobile phones: */[class*="col-"] {  width: 100%;}@media only screen and (min-width: 600px) {  /* For tablets: */  .col-s-1 {width: 8.33%;}  .col-s-2 {width: 16.66%;}  .col-s-3 {width: 25%;}  .col-s-4 {width: 33.33%;}  .col-s-5 {width: 41.66%;}  .col-s-6 {width: 50%;}  .col-s-7 {width: 58.33%;}  .col-s-8 {width: 66.66%;}  .col-s-9 {width: 75%;}  .col-s-10 {width: 83.33%;}  .col-s-11 {width: 91.66%;}  .col-s-12 {width: 100%;}}@media only screen and (min-width: 768px) {  /* For desktop: */  .col-1 {width: 8.33%;}  .col-2 {width: 16.66%;}  .col-3 {width: 25%;}  .col-4 {width: 33.33%;}  .col-5 {width: 41.66%;}  .col-6 {width: 50%;}  .col-7 {width: 58.33%;}  .col-8 {width: 66.66%;}  .col-9 {width: 75%;}  .col-10 {width: 83.33%;}  .col-11 {width: 91.66%;}  .col-12 {width: 100%;}}@media only screen and (min-width: 992px) {  .col-m-1 {width: 8.33%;}  .col-m-2 {width: 16.66%;}  .col-m-3 {width: 25%;}  .col-m-4 {width: 33.33%;}  .col-m-5 {width: 41.66%;}  .col-m-6 {width: 50%;}  .col-m-7 {width: 58.33%;}  .col-m-8 {width: 66.66%;}  .col-m-9 {width: 75%;}  .col-m-10 {width: 83.33%;}  .col-m-11 {width: 91.66%;}  .col-m-12 {width: 100%;}} @media only screen and (min-width: 1200px) {  .col-l-1 {width: 8.33%;}  .col-l-2 {width: 16.66%;}  .col-l-3 {width: 25%;}  .col-l-4 {width: 33.33%;}  .col-l-5 {width: 41.66%;}  .col-l-6 {width: 50%;}  .col-l-7 {width: 58.33%;}  .col-l-8 {width: 66.66%;}  .col-l-9 {width: 75%;}  .col-l-10 {width: 83.33%;}  .col-l-11 {width: 91.66%;}  .col-l-12 {width: 100%;}}</style>
+  <style>* {  box-sizing: border-box;}.row::after {  content: "";  clear: both;  display: table;}[class*="col-"] {  float: left;  padding: 15px;}/* For mobile phones: */[class*="col-"] {  width: 100%;}  @media only screen and (max-width: 677px){.spanplacing { padding-left: 60px !important;}} @media only screen and (min-width: 600px) {  /* For tablets: */.spanplacing { padding-left: 60px !important;}  .col-s-1 {width: 8.33%;}  .col-s-2 {width: 16.66%;}  .col-s-3 {width: 25%;}  .col-s-4 {width: 33.33%;}  .col-s-5 {width: 41.66%;}  .col-s-6 {width: 50%;}  .col-s-7 {width: 58.33%;}  .col-s-8 {width: 66.66%;}  .col-s-9 {width: 75%;}  .col-s-10 {width: 83.33%;}  .col-s-11 {width: 91.66%;}  .col-s-12 {width: 100%;}}@media only screen and (min-width: 768px) {  /* For desktop: */.spanplacing { padding-left: 100px !important;}  .col-1 {width: 8.33%;}  .col-2 {width: 16.66%;}  .col-3 {width: 25%;}  .col-4 {width: 33.33%;}  .col-5 {width: 41.66%;}  .col-6 {width: 50%;}  .col-7 {width: 58.33%;}  .col-8 {width: 66.66%;}  .col-9 {width: 75%;}  .col-10 {width: 83.33%;}  .col-11 {width: 91.66%;}  .col-12 {width: 100%;}}@media only screen and (min-width: 992px) { .spanplacing { padding-left: 120px !important;}  .col-m-1 {width: 8.33%;}  .col-m-2 {width: 16.66%;}  .col-m-3 {width: 25%;}  .col-m-4 {width: 33.33%;}  .col-m-5 {width: 41.66%;}  .col-m-6 {width: 50%;}  .col-m-7 {width: 58.33%;}  .col-m-8 {width: 66.66%;}  .col-m-9 {width: 75%;}  .col-m-10 {width: 83.33%;}  .col-m-11 {width: 91.66%;}  .col-m-12 {width: 100%;}} @media only screen and (min-width: 1200px) { .spanplacing { padding-left: 140px !important;}  .col-l-1 {width: 8.33%;}  .col-l-2 {width: 16.66%;}  .col-l-3 {width: 25%;}  .col-l-4 {width: 33.33%;}  .col-l-5 {width: 41.66%;}  .col-l-6 {width: 50%;}  .col-l-7 {width: 58.33%;}  .col-l-8 {width: 66.66%;}  .col-l-9 {width: 75%;}  .col-l-10 {width: 83.33%;}  .col-l-11 {width: 91.66%;}  .col-l-12 {width: 100%;} }
+  
+  </style>
 
 </head>
 
@@ -180,12 +182,12 @@
                 </tr>
               {% elif "<data1>" in january %} 
                 <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{ january|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{ january|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{ january|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{ january|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in january %} 
                 <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{ january|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{ january|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{ january|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{ january|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{ january|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{ january|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{ january|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
             {% endfor %}
@@ -200,12 +202,12 @@
                 </tr>
               {% elif "<data1>" in February %} 
                 <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{February|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{February|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{February|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{February|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in February %} 
                 <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{February|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{February|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{February|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{February|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{February|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{February|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{February|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
             {% endfor %}
@@ -220,12 +222,12 @@
                 </tr>
               {% elif "<data1>" in March %} 
                 <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{March|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{March|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{March|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{March|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in March %} 
                 <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{March|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{March|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{March|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{March|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{March|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{March|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{March|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
             {% endfor %}
@@ -240,12 +242,12 @@
               </tr>
               {% elif "<data1>" in April %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{April|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{April|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{April|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{April|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in April %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{April|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{April|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{April|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{April|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{April|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{April|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{April|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -260,12 +262,12 @@
               </tr>
               {% elif "<data1>" in May %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{May|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{May|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{May|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{May|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in May %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{May|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{May|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{May|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{May|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{May|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{May|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{May|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -280,12 +282,12 @@
               </tr>
               {% elif "<data1>" in June %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{June|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{June|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{June|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{June|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in June %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{June|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{June|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{June|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{June|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{June|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{June|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{June|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -300,12 +302,12 @@
               </tr>
               {% elif "<data1>" in July %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{July|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{July|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{July|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{July|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in July %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{July|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{July|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{July|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{July|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{July|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{July|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{July|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -320,12 +322,12 @@
               </tr>
               {% elif "<data1>" in August %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{August|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{August|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{August|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{August|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in August %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{August|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{August|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{August|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{August|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{August|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{August|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{August|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -340,12 +342,12 @@
               </tr>
               {% elif "<data1>" in September %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{September|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{September|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{September|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{September|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in September %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{September|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{September|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{September|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{September|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{September|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{September|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{September|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -360,12 +362,12 @@
               </tr>
               {% elif "<data1>" in October %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{October|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{October|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{October|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{October|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in October %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{October|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{October|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{October|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{October|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{October|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{October|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{October|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -380,12 +382,12 @@
               </tr>
               {% elif "<data1>" in November %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{November|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{November|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{November|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{November|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in November %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{November|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{November|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{November|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{November|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{November|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{November|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{November|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}
@@ -400,12 +402,12 @@
               </tr>
               {% elif "<data1>" in December %} 
               <tr style="border: 1px solid rgba(0, 0, 0, 0.32); height: 60px; text-align: left;">
-                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32);"><a href="{{December|split1:'<data1>,1' }}" style="margin-top: -20px; margin-left: 10px;"><i class="fa-solid fa-calendar-days"></i>  {{December|split1:'<data1>,0' }}</a></th>
+                  <th style="width:35%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><a href="{{December|split1:'<data1>,1' }}" style="margin-top: -20px;"><i class="fa-solid fa-calendar-days"></i>  {{December|split1:'<data1>,0' }}</a></th>
 
               {% elif "<data2>" in December %} 
               <th style="width:65%; border: 1px solid rgba(0, 0, 0, 0.32); padding-left: 15px;"><b style="margin-top: 10px;">{{December|replace_data:'<data2>,' }}</b>
               {% else %}
-              <br><span style="font-size:11px;">{{December|replace_data_split:'$$,0,<data3>,' }}</span><br><span style="font-size:13px; color: blue; text-align: center; padding-left: 170px;">{{December|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{December|split1:'$$,2' }}
+              <br><span style="font-size:11px;">{{December|replace_data_split:'$$,0,<data3>,' }}</span><br><span class="spanplacing" style="font-size:13px; color: blue;">{{December|split1:'$$,1' }} Historical Events</span><br><span style="font-size:11px; font-weight:normal;"><i class="fa-solid fa-pencil"></i> {{December|split1:'$$,2' }}
               </span></th></tr>
               {% endif %}  
           {% endfor %}

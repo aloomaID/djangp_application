@@ -91,7 +91,8 @@ def index<<2>>(response):
             'box_credential': boxcredential,
             'form': forms,
             'out_result': result,
-            'famousypeople': famouspeople
+            'famousypeople': famouspeople,
+            'dateofbirth': date_of_birth,
              
         })
         
@@ -142,7 +143,8 @@ def index(response):
             'box_credential': boxcredential,
             'form': forms,
             'out_result': result,
-            'famousypeople': famouspeople
+            'famousypeople': famouspeople,
+            'dateofbirth': date_of_birth,
              
         })
         
@@ -165,6 +167,7 @@ from . import views
 
 urlpatterns= [
     path("", views.index, name='index'),
+    path("sitemaps/sitemaps.xml/", views.sitemaps, name='sitemaps'),
         '''
         Good1 = open("urls.py", "w", encoding='utf-8-sig')
         Good1.write(brands1 + "\n")
@@ -286,7 +289,7 @@ def sitemaps(response):
     brands2= '''
 ]
     '''
-    Good1 = open("urls.py", "w", encoding='utf-8-sig')
+    Good1 = open("urls.py", "a", encoding='utf-8-sig')
     Good1.write(brands2 + "\n")
     Good1.close()
     

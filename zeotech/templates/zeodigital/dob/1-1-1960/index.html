@@ -245,6 +245,7 @@
           </p>
           <div class="boxapplication">  
             <form action="/#result" method="POST">
+              {% csrf_token %}
               <div class="row">
                 <div class="col-s-6 col-m-6 col-l-6"><b>Date Of Birth (DD-MM-YYYY) <br><input type='date' name='mydateofbirth' id="date">  </b></div>
                 <div class="col-s-6 col-m-6 col-l-6"> <b>Age From Date (DD-MM-YYYY)<br> <input type='date' name='currentdate' id="today">  </b>  </div>

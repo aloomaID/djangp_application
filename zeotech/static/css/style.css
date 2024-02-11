@@ -991,6 +991,7 @@ a:focus {
     display: none;
   }
   
+  
 }
 
 @media only screen and (min-width: 980px) {
@@ -1002,6 +1003,7 @@ a:focus {
   #navbar-nav{
     display: none;
   }
+  
 }
 
 .visibility_alo1{
@@ -1069,7 +1071,9 @@ a:focus {
     font-weight: 600;
     font-size: 11px;
     margin-left: 5px;
-}
+    
+  }
+  
   
 }
 
@@ -1079,5 +1083,6 @@ a:focus {
 /* #navbarNav{
 
 } */
+
 
 
